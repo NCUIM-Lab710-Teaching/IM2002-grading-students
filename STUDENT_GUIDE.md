@@ -1,5 +1,7 @@
 # IM2002 Database Management — Assessment Overview
 
+## READ CAREFULLY.
+
 ## Project: TransitFlow
 
 You will implement three databases that power a pre-built LLM+RAG transit assistant. **Team size:** 3-4 students. **Deliverables:** Four separate submissions.

@@ -131,9 +131,9 @@ Most correct = 5–7 · Some missing or wrong = 2–4 · No cardinality shown = 
 
 To be eligible for the bonus in any marking scheme, all four of the following must be present:
 
-1. The extension touches database code — new schema, queries, or seed data. UI-only changes do not qualify.
-2. Detailed inline comments explain every new database operation.
-3. A **Section 7** in this design document covers motivation, schema changes, example queries, and testing evidence.
+1. The extension touches database code (new schema, queries, or seed data), or includes a substantial UI improvement. Substantial means it adds a meaningful new interaction or surfaces data the current UI cannot show — for example, a trip history panel, a route visualiser, or an analytics dashboard. Cosmetic-only changes (theme colours, button labels, layout tweaks) do not qualify. UI-only submissions are capped at 3 marks per component; database extensions are eligible for the full 15.
+2. Detailed inline comments explain every new database operation *(not required for UI-only submissions)*.
+3. A **Section 7** in this design document covers motivation, schema changes, example queries, and testing evidence; for UI-only submissions, cover motivation, UI design decisions, and screenshots instead.
 4. A **`TASK6.md`** file at the repo root lists every file modified or added, with specific function and table names. Each modified file must also have a `# TASK 6 EXTENSION:` comment near the top.
 
 The Section 7 bonus marks in this scheme are awarded for the quality of the document section only.
@@ -146,5 +146,7 @@ The code and live components have their own independent bonus marks.
 | **Example queries** — SQL/Cypher/similarity search shown with expected output | 4 | At least one complete query shown with the output it produces |
 | **Testing evidence** — screenshots, query output in pgAdmin/Neo4j Browser, or chat UI demo | 4 | Evidence that the extension was actually run and produced correct output |
 | **Task 6 Doc Bonus Total** | **+15** | |
+
+> **UI-only extension:** Section 7 for a UI-only submission should cover motivation and include screenshots or a component description instead of schema snippets. Up to 3 marks awarded holistically.
 
 > If Section 7 is present but the code does not include `TASK6.md` or per-file comment markers, the live and code bonus sections will not be awarded — only this document bonus can be graded.

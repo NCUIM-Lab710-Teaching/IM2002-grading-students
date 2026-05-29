@@ -37,14 +37,14 @@ across all three if all components are satisfied.
 | Component | Bonus | What is graded |
 |-----------|-------|----------------|
 | Static Code | up to +15 | Code implementation quality, end-to-end functionality, comments |
-| Design Document | up to +15 | Section 7: motivation, schema changes, example queries, testing evidence |
-| Live Testing | up to +15 | Live demo, database correctness, regression-free integration |
+| Design Document | up to +15 | Section 7: motivation, changes or UI design decisions, testing evidence |
+| Live Testing | up to +15 | Live demo, correctness, regression-free integration |
 
 To be eligible for the bonus in **any** component, all four of the following must be present:
 
-1. The extension touches database code — new schema, queries, or seed data. UI-only changes do not count.
-2. Detailed inline comments explain every new database operation.
-3. A **Section 7** in your design document covering motivation, changes, example queries, and testing evidence.
+1. The extension touches database code (new schema, queries, or seed data), or includes a substantial UI improvement. Substantial means it adds a meaningful new interaction or surfaces data the current UI cannot show — for example, a trip history panel, a route visualiser, or an analytics dashboard. Cosmetic-only changes (theme colours, button labels, layout tweaks) do not qualify. UI-only submissions are capped at 3 marks per component; database extensions are eligible for the full 15.
+2. Detailed inline comments explain every new database operation *(not required for UI-only submissions)*.
+3. A **Section 7** in your design document covering motivation, changes, example queries, and testing evidence; for UI-only submissions, cover motivation, UI design decisions, and screenshots instead.
 4. A **`TASK6.md`** file at the repo root listing every file modified or added, with specific function and table names. Each modified file must also have a `# TASK 6 EXTENSION:` comment near the top.
 
 ---

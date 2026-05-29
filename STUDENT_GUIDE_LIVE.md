@@ -278,9 +278,9 @@ value.
 
 To be eligible for the live bonus, all four of the following must be present:
 
-1. The extension touches database code — new schema, queries, or seed data. UI-only changes do not qualify.
-2. Detailed inline comments explain every new database operation.
-3. A **Section 7** in your design document covers motivation, schema changes, example queries, and testing evidence.
+1. The extension touches database code (new schema, queries, or seed data), or includes a substantial UI improvement. Substantial means it adds a meaningful new interaction or surfaces data the current UI cannot show — for example, a trip history panel, a route visualiser, or an analytics dashboard. Cosmetic-only changes (theme colours, button labels, layout tweaks) do not qualify. UI-only submissions are capped at 3 marks per component; database extensions are eligible for the full 15.
+2. Detailed inline comments explain every new database operation *(not required for UI-only submissions)*.
+3. A **Section 7** in your design document covers motivation, schema changes, example queries, and testing evidence; for UI-only submissions, cover motivation, UI design decisions, and screenshots instead.
 4. A **`TASK6.md`** file at the repo root lists every file modified or added, with specific function and table names. Each modified file must also have a `# TASK 6 EXTENSION:` comment near the top.
 
 If you attempt the optional extension, ensure `TASK6.md` is complete — the live bonus is only graded if the extension feature is demonstrable in the running application.
@@ -291,3 +291,5 @@ If you attempt the optional extension, ensure `TASK6.md` is complete — the liv
 | Database correctness — extension data is accurate | 5 | Querying the extension data directly confirms it is correct, not just that it loads without errors |
 | Extension integrates cleanly with the existing system (no regressions in B1–C6 tests) | 4 | All original functions continue to pass their scenarios after the extension is added |
 | **Task 6 Live Bonus Total** | **+15** | |
+
+> **UI-only extension:** A substantial UI improvement must be demonstrable live in the running app. Up to 3 marks awarded holistically; no per-criterion breakdown applies.

@@ -157,17 +157,37 @@ Half marks = Cypher present but algorithm choice wrong or return shape incorrect
 
 To be eligible, all of the following must be present:
 
-1. The extension touches database code — new schema, queries, or seed data. UI-only changes do not qualify.
-2. Every new database operation has detailed inline comments explaining what it does and why.
-3. A **Section 7** in your design document covers motivation, schema changes, example queries, and testing evidence.
+1. The extension touches database code (new schema, queries, or seed data), or includes a substantial UI improvement. Substantial means it adds a meaningful new interaction or surfaces data the current UI cannot show — for example, a trip history panel, a route visualiser, or an analytics dashboard. Cosmetic-only changes (theme colours, button labels, layout tweaks) do not qualify. UI-only submissions are capped at 3 marks per component; database extensions are eligible for the full 15.
+2. Every new database operation has detailed inline comments explaining what it does and why *(not required for UI-only submissions)*.
+3. A **Section 7** in your design document covers motivation, schema changes, example queries, and testing evidence; for UI-only submissions, cover motivation, UI design decisions, and screenshots instead.
 4. A **`TASK6.md`** file at the repo root lists every file modified or added, with specific function and table names. Each modified file must also have a `# TASK 6 EXTENSION:` comment near the top.
 
 > **Tip:** Without `TASK6.md` and the per-file comment markers, the bonus section will not be graded. TAs use these to locate all extension code unambiguously.
 
 | Criterion | Max | What earns full marks |
 |-----------|-----|-----------------------|
-| Extension touches database code (new schema, queries, or seed data) — UI-only = 0 | 2 | New tables, relationships, or query functions demonstrably present in the database layer |
+| Extension touches database code (new schema, queries, or seed data) | 2 | New tables, relationships, or query functions demonstrably present in the database layer |
 | Feature is functional end-to-end (demonstrable via direct DB query or chat UI) | 5 | The feature produces correct database output when tested |
 | Quality of database implementation (correct types, transactions, indexes, query design) | 5 | Implementation matches production-quality standards: appropriate types, no missing indexes, correct transaction scope |
 | Code comments clearly explain every new database operation | 3 | Every new function and schema object has a comment explaining the *why*, not just the *what* |
 | **Task 6 Code Bonus Total** | **+15** | |
+
+> **UI-only extension:** If the extension contains no new database code but includes a substantial UI improvement, TAs award up to 3 marks holistically — no per-criterion breakdown applies. Cosmetic changes (theme, labels, layout tweaks) score 0.
+
+**Examples of substantial UI improvements** (features the current chat-only interface cannot show):
+
+| Example | Why it qualifies |
+|---------|-----------------|
+| **Trip history panel** — a new tab that displays the logged-in user's past bookings in a formatted table, pulled from the `bookings` table | Surfaces structured data that the chat cannot present in a scannable, persistent format |
+| **Route visualiser** — origin/destination dropdowns that render the step-by-step path (stations, travel times) as a formatted list or table, backed by the existing Neo4j queries | Adds an interactive query interface distinct from free-text chat |
+| **Feedback / ratings dashboard** — a `gr.BarPlot` or `gr.LinePlot` showing rating distributions or booking trends across routes, queried from the `feedback` table | Presents aggregated data visually; impossible to replicate in a chat reply |
+| **Station schedule lookup panel** — a dropdown of stations that, on selection, fetches and displays upcoming departures in a table without requiring a chat message | New interaction mode that bypasses the LLM entirely for a specific, well-defined query |
+
+
+**Examples that do not qualify** (cosmetic or trivial):
+
+- Changing the Gradio colour theme or font
+- Reordering or rewording the six example query buttons
+- Adding a logo, banner image, or decorative markdown
+- Hiding or showing components that already exist
+- Renaming button labels or placeholder text

@@ -55,8 +55,8 @@ The Static Code score is a team score by default, but each member's individual m
 adjusted up or down based on their actual contribution. TAs assess contribution using three
 sources of evidence:
 
-- **Work Allocation Report** — your team's self-reported breakdown of who did what
-- **Peer Review Reports** — confidential assessments submitted individually by each member
+- **[Work Allocation Report](WORK_ALLOCATION_TEMPLATE.md)** — your team's self-reported breakdown of who did what
+- **[Peer Review Reports](PEER_REVIEW_TEMPLATE.md)** — confidential assessments submitted individually by each member
 - **GitHub commit history** — commit frequency, volume, and scope per author
 
 If the evidence consistently shows that a member contributed significantly less than their

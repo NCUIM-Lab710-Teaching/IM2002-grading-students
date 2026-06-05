@@ -1,4 +1,4 @@
-# Work Allocation Report — [Team ID]
+# Work Allocation Report — Team 11
 
 > **Instructions:** Complete this document as a team before or alongside your final submission.
 > Submit one copy per team via EEClass. This document is shared with all markers.
@@ -10,9 +10,9 @@
 
 | Full Name | Student ID | GitHub Username | Email |
 |-----------|-----------|----------------|-------|
-| | | | |
-| | | | |
-| | | | |
+| 潘芊涵 | 113401010 | Pan-Chien-Han | vita940901@gmail.com |
+| 王文岑 | 113401537 | | |
+| 羅妍安 | 113401542 | | |
 
 ---
 

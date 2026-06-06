@@ -11,7 +11,7 @@
 | Full Name | Student ID | GitHub Username | Email |
 |-----------|-----------|----------------|-------|
 | 潘芊涵 | 113401010 | Pan-Chien-Han | vita940901@gmail.com |
-| 王文岑 | 113401537 | | |
+| 王文岑 | 113401537 | Wen Cen Wang | wencen@g.ncu.edu.tw |
 | 羅妍安 | 113401542 | | |
 
 ---

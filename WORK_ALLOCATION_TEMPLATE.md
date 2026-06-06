@@ -12,7 +12,7 @@
 |-----------|-----------|----------------|-------|
 | 潘芊涵 | 113401010 | Pan-Chien-Han | vita940901@gmail.com |
 | 王文岑 | 113401537 | Wen Cen Wang | wencen@g.ncu.edu.tw |
-| 羅妍安 | 113401542 | | |
+| 羅妍安 | 113401542 | yann123-1 | yanan051011@gmail.com |
 
 ---
 
@@ -27,21 +27,23 @@ or reassigned mid-project).
 
 | Task | Primary Owner | Supporting Member(s) | Notes |
 |------|--------------|---------------------|-------|
-| **Task 1** — Relational schema design (`schema.sql`) | | | |
-| **Task 2a** — Core availability & fare queries (`query_national_rail_availability`, `query_metro_schedules`, `query_national_rail_fare`, `query_metro_fare`) | | | |
-| **Task 2b** — Seat & user queries (`query_available_seats`, `query_user_profile`, `query_user_bookings`, `query_payment_info`) | | | |
-| **Task 2c** — Write operations (`execute_booking`, `execute_cancellation`) | | | |
-| **Task 2d** — Authentication queries (`login_user`, `register_user`, `get_user_secret_question`, `verify_secret_answer`, `update_password`) | | | |
-| **Task 3** — PostgreSQL seeding (`seed_postgres.py`) | | | |
-| **Task 4** — Neo4j graph design & seeding (`seed_neo4j.py`, `seed.cypher`) | | | |
-| **Task 5** — Neo4j query functions (`graph/queries.py`) | | | |
-| **Task 6** *(if attempted)* — Optional extension | | | |
+| **Task 1** — Relational schema design (`schema.sql`) | 羅妍安 | 潘芊涵、王文岑 | |
+| **Task 2a** — Core availability & fare queries (`query_national_rail_availability`, `query_metro_schedules`, `query_national_rail_fare`, `query_metro_fare`) | 羅妍安、潘芊涵 | 王文岑 | |
+| **Task 2b** — Seat & user queries (`query_available_seats`, `query_user_profile`, `query_user_bookings`, `query_payment_info`) | 羅妍安、潘芊涵、王文岑 | | |
+| **Task 2c** — Write operations (`execute_booking`, `execute_cancellation`) | 羅妍安、潘芊涵 | | |
+| **Task 2d** — Authentication queries (`login_user`, `register_user`, `get_user_secret_question`, `verify_secret_answer`, `update_password`) | 羅妍安、潘芊涵、王文岑 | | |
+| **Task 3** — PostgreSQL seeding (`seed_postgres.py`) | 羅妍安、潘芊涵、王文岑 | | |
+| **Task 4** — Neo4j graph design & seeding (`seed_neo4j.py`, `seed.cypher`) | 羅妍安、潘芊涵、王文岑 | | |
+| **Task 5** — Neo4j query functions (`graph/queries.py`) | 潘芊涵 | | |
+| **Task 6** — json | 王文岑 | | |
+| **Task 7** *(if attempted)* — Optional extension (agent.py、ui.py) | 羅妍安、潘芊涵、王文岑 | | |
+
 
 ### Design Document
 
 | Section | Primary Author | Supporting Member(s) | Notes |
 |---------|--------------|---------------------|-------|
-| Section 1 — ER Diagram | | | |
+| Section 1  — ER Diagram | | | |
 | Section 2 — Normalisation Justification | | | |
 | Section 3 — Graph Database Design Rationale | | | |
 | Section 4 — Vector / RAG Design | | | |

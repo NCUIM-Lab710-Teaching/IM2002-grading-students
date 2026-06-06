@@ -87,4 +87,4 @@ We confirm that this work allocation accurately reflects how responsibilities we
 |------|----------------------|------|
 | 羅妍安 | 羅妍安 | 2026.06.07|
 | 潘芊涵 | 潘芊涵 | 2026.06.07 |
-| 王文岑 | | |
+| 王文岑 | 王文岑 | 2026.06.07 |

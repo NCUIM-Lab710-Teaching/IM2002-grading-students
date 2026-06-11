@@ -13,10 +13,10 @@
 
 | Field | Your answer |
 |-------|------------|
-| Full Name | |
-| Student ID | |
-| Team ID | |
-| Date submitted | |
+| Full Name |段景旻 |
+| Student ID |113403066 |
+| Team ID | 28|
+| Date submitted |2026-06-11 |
 
 ---
 
@@ -39,7 +39,7 @@
 List the specific tasks, functions, files, or document sections that you were the primary author of.
 Be specific (e.g., "I designed all 12 tables in schema.sql and implemented query_national_rail_availability and execute_booking").
 
-> *Your answer:*
+> wrote 'query interchange path (task 5);fixed the coach condition bug in execute booking;built seed vectors.pyand joined design discussion for tasks1-3.
 
 ---
 
@@ -47,7 +47,7 @@ Be specific (e.g., "I designed all 12 tables in schema.sql and implemented query
 
 Describe any technical or collaboration difficulties you personally encountered and how you resolved them.
 
-> *Your answer:*
+> I personally encountered difficulties like code,bug,design and built,I resolved them through discussing with the teammates and help of AI.
 
 ---
 
@@ -55,11 +55,11 @@ Describe any technical or collaboration difficulties you personally encountered 
 
 | Criterion | Rating (1–5) | Justification (1–2 sentences) |
 |-----------|-------------|-------------------------------|
-| I delivered the tasks assigned to me in the work allocation | | |
-| The quality of my work was satisfactory | | |
-| I communicated well and kept the team informed | | |
-| I met deadlines agreed within the team | | |
-| **Overall self-rating** | | |
+| I delivered the tasks assigned to me in the work allocation | 4|. I successfully completed and integrated all required modules into our main repository without missing any components. |
+| The quality of my work was satisfactory |4 | The database queries ran efficiently, ensuring the stable progression of the next stage. |
+| I communicated well and kept the team informed |4 | I actively participated in team discussions and provided regular progress updates.|
+| I met deadlines agreed within the team |5 | I managed my time effectively to ensure that all tasks were completed.|
+| **Overall self-rating** |4.2 | Throughout the project, I demonstrated strong accountability and team alignment.|
 
 ---
 
@@ -67,7 +67,7 @@ Describe any technical or collaboration difficulties you personally encountered 
 
 What percentage of the total team effort do you estimate you personally contributed?
 
-> My estimated contribution: **____%**
+> My estimated contribution: **_31_%**
 
 ---
 
@@ -82,33 +82,33 @@ If your team has 2 members, complete B1 only. If 3 members, complete B1 and B2.
 
 | Field | Your answer |
 |-------|------------|
-| Teammate's full name | |
-| Teammate's student ID | |
+| Teammate's full name | 鄭志緬|
+| Teammate's student ID | 113403033|
 
 #### What did this teammate deliver?
 
 List the tasks, functions, files, or document sections that this teammate was the primary author of,
 based on what you observed during the project (compare against the work allocation).
 
-> *Your answer:*
+> *Led Task6(compensation pipeline,agent tools,polices,tests);drafted Section7;and joined design discussion for tasks1-3. *
 
 #### Did their actual contribution match the agreed work allocation?
 
-> *Your answer (Yes / Mostly / Partially / No — with explanation):*
+> *YES*
 
 #### Peer rating for this teammate
 
 | Criterion | Rating (1–5) | Justification (1–2 sentences) |
 |-----------|-------------|-------------------------------|
-| Delivered the tasks assigned in the work allocation | | |
-| Quality of their work was satisfactory | | |
-| Communicated well and kept the team informed | | |
-| Met deadlines agreed within the team | | |
-| **Overall rating for this teammate** | | |
+| Delivered the tasks assigned in the work allocation | 4| He did  all the efficient task that he was supposed to hand on with excelllent performances. |
+| Quality of their work was satisfactory |4 | The quality met all technical requirements and required minimal revisions.  |
+| Communicated well and kept the team informed |4 |He was very active within the dicussion. |
+| Met deadlines agreed within the team | 5| He managed his time effectively to ensure the progress.|
+| **Overall rating for this teammate** | 4.4| Well communicated,good performaces with unique ideas.|
 
 #### Estimated contribution percentage for this teammate
 
-> My estimate of their contribution: **____%**
+> My estimate of their contribution: **__32_%**
 
 ---
 
@@ -116,30 +116,31 @@ based on what you observed during the project (compare against the work allocati
 
 | Field | Your answer |
 |-------|------------|
-| Teammate's full name | |
-| Teammate's student ID | |
+| Teammate's full name | 黃丞胤|
+| Teammate's student ID |113403021 |
 
 #### What did this teammate deliver?
 
-> *Your answer:*
+> * Led the overall architecture. Responsible for the schema, Tasks 2a–2d, Task 3 seeding, Task 4, most graph queries, and the full design document (Sections 1–6). |
+ *
 
 #### Did their actual contribution match the agreed work allocation?
 
-> *Your answer (Yes / Mostly / Partially / No — with explanation):*
+> *YES*
 
 #### Peer rating for this teammate
 
 | Criterion | Rating (1–5) | Justification (1–2 sentences) |
 |-----------|-------------|-------------------------------|
-| Delivered the tasks assigned in the work allocation | | |
-| Quality of their work was satisfactory | | |
-| Communicated well and kept the team informed | | |
-| Met deadlines agreed within the team | | |
-| **Overall rating for this teammate** | | |
+| Delivered the tasks assigned in the work allocation |4.3 |He successfully completed and integrated all required modules into our main repository. |
+| Quality of their work was satisfactory |4.2 |Met all technical requirements and required factors. |
+| Communicated well and kept the team informed | 4| He is fun to communicate and lead the conversation within the discuss.|
+| Met deadlines agreed within the team | 5|Definitely good. |
+| **Overall rating for this teammate** |4.5 |  Well communicated,good performaces with unique ideas.|
 
 #### Estimated contribution percentage for this teammate
 
-> My estimate of their contribution: **____%**
+> My estimate of their contribution: **__37__%**
 
 ---
 
@@ -149,10 +150,10 @@ All members (including yourself) must sum to 100%.
 
 | Member | Your estimated % | Notes |
 |--------|----------------|-------|
-| Yourself | % | |
-| Teammate 1 | % | |
-| Teammate 2 | % |  |
-| **Total** | **100%** | |
+| Yourself | 31% |WELL  |
+| Teammate 1 | 32% | WELL|
+| Teammate 2 |37% | WELL |
+| **Total** | **100%** | GREAT|
 
 ---
 
@@ -160,13 +161,13 @@ All members (including yourself) must sum to 100%.
 
 ### D1. What went well in the team's collaboration?
 
-> *Your answer (2–4 sentences):*
+> Our team excelled in maintaining clear and consistent communication throughout the project. Everyone adhered to the agreed-upon internal deadlines, which allowed us to integrate our individual components smoothly and left ample time for final reviews.*
 
 ---
 
 ### D2. What would you do differently if you did this project again?
 
-> *Your answer (2–4 sentences):*
+> *If we were to do this project again, I would propose setting up the integration environment and styling guidelines earlier in the timeline. This would help prevent minor conflicts during the final merging stage and make the overall layout more cohesive from the start.*
 
 ---
 
@@ -175,7 +176,7 @@ All members (including yourself) must sum to 100%.
 This is optional. Use it only if there is important context that the ratings above do not capture
 (e.g., a member had a documented personal emergency, or a member was unresponsive for a significant period).
 
-> *Your answer (or "Nothing to add"):*
+> *I would like to highlight the exceptional contribution of OUR ALL TEAMMATES,all did very well.*
 
 ---
 
@@ -184,4 +185,4 @@ This is optional. Use it only if there is important context that the ratings abo
 I confirm that this peer review reflects my honest and independent assessment.
 I understand it will be kept confidential from my teammates.
 
-**Signed:** _________________________________ **Date:** _______________
+**Signed:** __段景旻_______________________________ **Date:** _____2026/06/11__________

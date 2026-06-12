@@ -110,6 +110,7 @@ The schema also uses foreign keys to maintain referential integrity for users, s
 Therefore, the TransitFlow relational design balances normalisation, data integrity, query efficiency, and practical transaction requirements.
 
 
+
 # Section 4 — Vector / RAG Design
 
 ## 4.1 Embedded Content and Semantic Search

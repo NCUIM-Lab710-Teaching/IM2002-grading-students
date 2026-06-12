@@ -241,6 +241,90 @@ The retrieved documents are injected into the LLM prompt to produce grounded ans
 
 The current implementation uses 768-dimensional Ollama embeddings. If a different embedding provider is adopted in the future, the vector schema and index must be rebuilt to match the new embedding dimensionality.
 
+# Section 5 — AI Tool Usage Evidence
+
+## Example 1 — Database Schema Design
+
+### Context
+
+We were designing the PostgreSQL database schema for TransitFlow. One design challenge was deciding how user authentication data should be stored.
+
+### Prompt
+
+```text
+Should password hashes be stored in the same table as user profile information, or should they be separated into a dedicated credentials table?
+```
+
+### Outcome
+
+The AI suggested separating authentication data into a dedicated `user_credentials` table linked to `registered_users` through `user_id`.
+
+After reviewing the recommendation, we adopted the design because it improves security, reduces redundancy, and supports Third Normal Form (3NF).
+
+---
+
+## Example 2 — Available Seat Query Development
+
+### Context
+
+We were implementing the `query_available_seats()` function for national rail bookings. The seat layouts were stored as JSONB objects and booked seats needed to be excluded.
+
+### Prompt
+
+```text
+Write a PostgreSQL query that returns available seats from a JSONB seat layout while excluding seats that have already been booked.
+```
+
+### Outcome
+
+The AI provided an initial approach using PostgreSQL JSONB functions.
+
+The generated solution helped us understand how to traverse nested JSON structures and filter occupied seats. We later adapted the logic and integrated it into the final implementation of `query_available_seats()`.
+
+---
+
+## Example 3 — Booking Flow Debugging
+
+### Context
+
+During development, the booking workflow was failing when users entered booking requests through the Gradio interface.
+
+### Prompt
+
+```text
+The booking command is not triggering the booking function. Review the intent detection logic and identify possible causes.
+```
+
+### Outcome
+
+The AI suggested checking the booking trigger keywords, login validation logic, and fallback routing conditions.
+
+Using these suggestions, we identified issues in the intent-detection logic and updated the trigger conditions. After the correction, booking requests could successfully reach the booking workflow.
+
+---
+
+## Example 4 — AI Error and Correction
+
+### Context
+
+We used AI assistance to review our schema and identify foreign key relationships.
+
+### Prompt
+
+```text
+Review the TransitFlow schema and identify all primary key and foreign key relationships.
+```
+
+### Outcome
+
+The AI initially assumed that `payments.booking_id` and `feedback.booking_id` already had foreign key constraints defined.
+
+However, after manually reviewing the schema, we discovered that these foreign keys had not actually been declared in the SQL schema.
+
+We corrected the design by adding the missing foreign key relationships and updating the ER diagram accordingly.
+
+This experience demonstrated the importance of verifying AI-generated suggestions against the actual implementation before accepting them.
+
 
 # Section 6 — Reflection & Trade-offs
 
